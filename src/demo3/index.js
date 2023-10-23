@@ -1,6 +1,7 @@
-export default function funcB() {
-  import("./a");
-  console.log("in funcB");
-}
+// ESM index.js
+import { bar } from "./cjs.js";
+import foo from "./cjs.js";
 
-funcB();
+console.log(bar);
+console.log(foo);
+console.log(foo());
