@@ -16,7 +16,7 @@
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils */ \"./src/demo4/utils.js\");\n\n\nconsole.log(_utils__WEBPACK_IMPORTED_MODULE_0__.num);\n__webpack_require__.e(/*! import() */ \"src_demo4_data_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data */ \"./src/demo4/data.js\")).then(({ asyncData }) => {\n  console.log(asyncData);\n});\n\nconst result = _utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"].add(1, 2);\nconsole.log(result);\n\n\n//# sourceURL=webpack://webpack-bundle-result/./src/demo4/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils */ \"./src/demo4/utils.js\");\n\n\nconsole.log(_utils__WEBPACK_IMPORTED_MODULE_0__.num);\nconst result = _utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"].add(1, 2);\nconsole.log(result);\n\n__webpack_require__.e(/*! import() */ \"src_demo4_data_js\").then(__webpack_require__.bind(__webpack_require__, /*! ./data */ \"./src/demo4/data.js\")).then(({ asyncData }) => {\n  console.log(asyncData);\n});\n\n\n//# sourceURL=webpack://webpack-bundle-result/./src/demo4/index.js?");
 
 /***/ }),
 

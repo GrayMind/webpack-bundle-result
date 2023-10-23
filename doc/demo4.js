@@ -12,6 +12,8 @@
         "./src/demo4/utils.js"
       );
       console.log(_utils__WEBPACK_IMPORTED_MODULE_0__.num);
+      const result = _utils__WEBPACK_IMPORTED_MODULE_0__["default"].add(1, 2);
+      console.log(result);
       __webpack_require__
         .e("src_demo4_data_js")
         .then(
@@ -20,8 +22,6 @@
         .then(({ asyncData }) => {
           console.log(asyncData);
         });
-      const result = _utils__WEBPACK_IMPORTED_MODULE_0__["default"].add(1, 2);
-      console.log(result);
     },
 
     "./src/demo4/utils.js": (
